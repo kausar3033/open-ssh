@@ -11,3 +11,8 @@
 	
 ### Test it by login into the system using	
 		ssh userName@Your-server-name-IP
+		
+### Configure firewall and open port 22
+	sudo ufw allow ssh
+	sudo ufw enable
+	sudo ufw status
